@@ -14,13 +14,13 @@ mymodel = args.mymodel
 mydict = args.mydict
 if mymodel == None:
     
-    model = load_model('./new_model_dude_better.hdf5')#load prediction model
+    model = load_model('./initial_model/smart_keyboard_initial_model.hdf5')#load prediction model
 else:
     print(mymodel)
     model = load_model(mymodel)
 
 if mydict == None:
-    with open('./new_model_2_dict_better') as json_file:  
+    with open('./initial_model/smart_keyboard_initial_model') as json_file:  
         data_dict = json.load(json_file)#load dictionary of vocablary
 else:
     with open(mydict) as json_file:  
