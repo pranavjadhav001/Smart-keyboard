@@ -8,7 +8,7 @@ A smart keyboard that predicts next word and also spell checks based on user's c
 ![alt text](https://github.com/pranavjadhav001/Smart-keyboard/blob/master/readmeimages/Capture3.PNG)
 
 #### How to run
-python smart_keyboard -m path_to_model -f path_to_dict
+python smart_keyboard.py -m path_to_model -f path_to_dict
 
 #### Commands
 - Tab: fetches the left hand side and best result and puts it in text filed
