@@ -9,7 +9,6 @@ parser.add_argument("-m", "--model", dest="mymodel", help="Open specified file")
 parser.add_argument("-f", "--dict", dest="mydict", help="Open specified file")
 
 args = parser.parse_args()
-print(args)
 mymodel = args.mymodel
 mydict = args.mydict
 if mymodel == None:
